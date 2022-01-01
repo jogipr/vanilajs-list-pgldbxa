@@ -1,0 +1,25 @@
+body {
+  background: rgb(238, 235, 230);
+}
+
+.list-container {
+  border: 1px solid rosybrown;
+  margin-top: 24px;
+  border-radius: 10px;
+}
+
+li {
+  padding: 8px;
+  list-style: none;
+}
+
+button,
+input {
+  padding: 8px;
+  border-radius: 10px;
+}
+
+button {
+  border-radius: 50px;
+  background-color: rosybrown;
+}
