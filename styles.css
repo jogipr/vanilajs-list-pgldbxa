@@ -23,3 +23,12 @@ button {
   border-radius: 50px;
   background-color: rosybrown;
 }
+
+.counter-container {
+  margin: 8px;
+  display: flex;
+}
+
+.counter-container span {
+  width: 14%;
+}

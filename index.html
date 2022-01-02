@@ -8,11 +8,22 @@
     <header>
       <h1>Display employee lists using vanila js</h1>
     </header>
-    <p id="counter"></p>
+    <div class="counter-container">
+      <span id="counter"></span>
+      <button id="stop-worker" onclick="stopWorker()">Stop Worker</button>
+    </div>
 
-    <input type="text" id="employeename" value="" placeholder="enter details" />
-    <button id="add-button" onclick="handleAddEmployee()">Add Employee</button>
-
+    <div class="add-container">
+      <input
+        type="text"
+        id="employeename"
+        value=""
+        placeholder="enter details"
+      />
+      <button id="add-button" onclick="handleAddEmployee()">
+        Add Employee
+      </button>
+    </div>
     <div class="list-container"></div>
 
     <script src="script.js"></script>

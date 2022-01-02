@@ -9,5 +9,6 @@ const interval = (function () {
 
 onmessage = function (event) {
   console.log(`message from main thread--${event.data}`);
+  postMessage("Counter Stopped");
   clearInterval(interval);
 };
