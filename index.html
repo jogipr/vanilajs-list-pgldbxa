@@ -8,17 +8,13 @@
     <header>
       <h1>Display employee lists using vanila js</h1>
     </header>
-    <div class="counter-container">
-      <span id="counter"></span>
-      <button id="stop-worker" onclick="stopWorker()">Stop Worker</button>
-    </div>
 
     <div class="add-container">
       <input
         type="text"
         id="employeename"
         value=""
-        placeholder="enter details"
+        placeholder="Enter employee details"
       />
       <button id="add-button" onclick="handleAddEmployee()">
         Add Employee
@@ -26,6 +22,11 @@
     </div>
     <div class="list-container"></div>
 
+    <h3>This section is an example for WebWorker</h3>
+    <div class="counter-container">     
+      <span id="counter"></span>
+      <button id="stop-worker" onclick="stopWorker()">Stop Worker</button>
+    </div>
     <script src="script.js"></script>
     <script src="app.js"></script>
   </body>
